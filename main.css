@@ -1,20 +1,21 @@
 @import 'https://fonts.googleapis.com/css?family=Inconsolata:400';
 
 body {
-    font-family: 'Inconsolata', sans-serif
-	font-display:swap;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	position:fixed;
-	height:100%;
-	width:100%
+    font-family: 'Inconsolata', sans-serif;
+	font-display: swap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
 	}
 	.container {
 		max-width:960px;
 		margin:0 auto;
 		text-align:center;
-		margin-top:-10%
 	}
 	.avatar img{border-radius:50%}
 	h1{font-weight:300;font-size:40px}
