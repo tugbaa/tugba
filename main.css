@@ -1,0 +1,35 @@
+@import 'https://fonts.googleapis.com/css?family=Inconsolata:400';
+
+body {
+    font-family: 'Inconsolata', sans-serif
+	font-display:swap;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:fixed;
+	height:100%;
+	width:100%
+	}
+	.container {
+		max-width:960px;
+		margin:0 auto;
+		text-align:center;
+		margin-top:-10%
+	}
+	.avatar img{border-radius:50%}
+	h1{font-weight:300;font-size:40px}
+	h3{font-weight:300;font-size:24px}
+	p{color:#666;font-size:24px;font-weight:300;margin:0 0 12px}
+	a{-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}	
+	ul{list-style-type:none; margin-top:16px; padding:0}
+	ul li{display:inline-block; margin-bottom:40px}
+	ul li a{font-size:24px; display:block; padding:0 15px; color:#ccc}
+	@media only screen and (max-width:768px){h1{font-size:30px}
+	.avatar img{width:80px;height:80px}p{font-size:16px}}
+	.description {
+		max-width:668px;
+		display:inline-block;
+		color:#666;font-size:20px;
+		font-weight:300;
+		margin:0 0 12px
+	}
